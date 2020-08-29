@@ -9,7 +9,7 @@ return actor
 end
 
 def monopoly
-	monopoly = {:railroad =>{}}
+	monopoly = {:railroad = Hash.new}
 end
 
 def monopoly_with_second_tier
