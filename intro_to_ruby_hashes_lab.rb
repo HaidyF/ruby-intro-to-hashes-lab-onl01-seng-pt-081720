@@ -9,12 +9,12 @@ return actor
 end
 
 def monopoly
-	monopoly = {:railroad => {}}
+	monopoly = {:railroads => {}}
 end
 
 def monopoly_with_second_tier
 	monopoly = {
-		:railroad=>{
+		:railroads=>{
 			:pieces=>4,
 			:rent_in_dollars=>{},
 		:names=>{}
@@ -25,7 +25,7 @@ end
 
 def monopoly_with_third_tier
 	monopoly = {
-		:railroad=>{
+		:railroads=>{
 			:pieces=>4,
 			:rent_in_dollars=>{
 				:one_piece_owned=>25,
@@ -46,7 +46,7 @@ end
 
 def monopoly_with_fourth_tier
   monopoly = {
-    :railroad=>{
+    :railroads=>{
       :pieces=>4,
       :rent_in_dollars=>{
         :one_piece_owned=>25,
